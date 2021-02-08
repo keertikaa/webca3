@@ -2,7 +2,7 @@ let formCount = 0;
 var close = false;
 
 async function myRequest(url) {
-  const host = "http://localhost:8080";
+  const host = "https://keertikaa-backend-hosting.herokuapp.com";
   try {
     return await axios.get(host + url);
   } catch (err) {
